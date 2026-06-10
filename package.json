@@ -1,0 +1,18 @@
+{
+  "name": "real-estate-rundown-top10-renderer",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@sparticuz/chromium": "121.0.0",
+    "cors": "latest",
+    "express": "latest",
+    "puppeteer-core": "21.11.0"
+  }
+}
