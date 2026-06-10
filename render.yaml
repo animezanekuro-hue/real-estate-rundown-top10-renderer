@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: real-estate-rundown-top10-renderer
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    envVars:
+      - key: NODE_VERSION
+        value: 20
